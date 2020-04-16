@@ -27,16 +27,17 @@ module.exports = {
     'comma-style': 'error',
     'func-call-spacing': 'error',
     'eol-last': 'error',
+    'quotes': [ 'error', 'single', { avoidEscape: true } ],
     'semi': 'error',
     'semi-spacing': 'error',
     'space-before-blocks': ['error', 'always'],
     'space-before-function-paren': ['error', 'never'],
     'space-in-parens': ['error', 'always'],
-    'space-infix-ops': ['error', { 'int32Hint': false }],
+    'space-infix-ops': ['error', { int32Hint: false }],
     'space-unary-ops': [
         'error',
         {
-            'overrides': {
+            overrides: {
                 '!': true
             }
         }
@@ -52,6 +53,19 @@ module.exports = {
     'import/prefer-default-export': 0,
 
     // Support JSX in *.js and *.jsx files.
-    'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+
+    // React.
+    'react/display-name': 'off',
+    'react/jsx-curly-spacing': [
+      'error',
+      {
+        when: 'always',
+        children: true,
+      },
+    ],
+    'react/jsx-equals-spacing': 'error',
+    'react/jsx-key': 'error',
+    'react/jsx-tag-spacing': 'error',
   },
 }
