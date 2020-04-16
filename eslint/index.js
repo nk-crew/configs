@@ -44,10 +44,16 @@ module.exports = {
         }
     ],
 
-    // rules for https://github.com/benmosher/eslint-plugin-import
+    // Indent with 2 spaces
+    "indent": ["error", 2],
+    "react/jsx-indent": ["error", 2],
+    "react/jsx-indent-props": ["error", 2],
+
+    // Rules for https://github.com/benmosher/eslint-plugin-import
     'import/order': ['error', { 'newlines-between': 'always' }],
     'import/prefer-default-export': 0,
 
+    // Support JSX in *.js and *.jsx files.
     'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
   },
 }
