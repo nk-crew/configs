@@ -30,6 +30,9 @@ module.exports = {
     'eol-last': 'error',
     'quotes': [ 'error', 'single', { avoidEscape: true } ],
     'max-len': 0,
+    'max-classes-per-file': 'off',
+    'no-param-reassign': 'off',
+    'template-curly-spacing': ['error', 'always'],
     'semi': 'error',
     'semi-spacing': 'error',
     'space-before-blocks': ['error', 'always'],
@@ -46,9 +49,9 @@ module.exports = {
     ],
 
     // Indent with 4 spaces
-    "indent": ["error", 4],
-    "react/jsx-indent": ["error", 4],
-    "react/jsx-indent-props": ["error", 4],
+    'indent': ['error', 4],
+    'react/jsx-indent': ['error', 4],
+    'react/jsx-indent-props': ['error', 4],
 
     // Rules for https://github.com/benmosher/eslint-plugin-import
     'import/order': ['error', { 'newlines-between': 'always' }],
@@ -59,6 +62,7 @@ module.exports = {
 
     // React.
     'react/display-name': 'off',
+    'react/destructuring-assignment': 'off',
     'react/jsx-curly-spacing': [
       'error',
       {
@@ -69,5 +73,6 @@ module.exports = {
     'react/jsx-equals-spacing': 'error',
     'react/jsx-key': 'error',
     'react/jsx-tag-spacing': 'error',
+    'react/jsx-props-no-spreading': 'off',
   },
 }

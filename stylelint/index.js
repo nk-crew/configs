@@ -1,4 +1,5 @@
 module.exports = {
+  ignoreFiles: [ '**/*.js', '**/*.jsx' ],
   extends: [
     'stylelint-config-standard',
     'stylelint-config-recommended-scss',
