@@ -24,9 +24,6 @@ module.exports = {
   ignorePatterns: [
     '**/*.min.js',
     '**/*.build.js',
-    '**/node_modules/**',
-    '**/vendor/**',
-    '**/vendors/**',
     'build',
     'coverage',
     'cypress',
