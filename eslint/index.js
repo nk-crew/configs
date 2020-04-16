@@ -28,6 +28,7 @@ module.exports = {
     'func-call-spacing': 'error',
     'eol-last': 'error',
     'quotes': [ 'error', 'single', { avoidEscape: true } ],
+    'max-len': 0,
     'semi': 'error',
     'semi-spacing': 'error',
     'space-before-blocks': ['error', 'always'],
