@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint config ready to be used in nK projects",
   "author": "nK",
   "license": "MIT",
@@ -20,7 +20,7 @@
   "files": [
     "index.js"
   ],
-  "peerDependencies": {
+  "dependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "6.8.0",
     "eslint-config-airbnb": "^18.1.0",
