@@ -26,6 +26,7 @@ module.exports = {
     'comma-spacing': 'error',
     'comma-style': 'error',
     'func-call-spacing': 'error',
+    'func-names': ['error', 'never'],
     'eol-last': 'error',
     'quotes': [ 'error', 'single', { avoidEscape: true } ],
     'max-len': 0,
