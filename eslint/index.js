@@ -22,9 +22,11 @@ module.exports = {
     },
   },
   rules: {
+    'array-bracket-spacing': ['error', 'always'],
     'comma-dangle': ['error', 'always-multiline'],
     'comma-spacing': 'error',
     'comma-style': 'error',
+    'computed-property-spacing': ['error', 'always'],
     'func-call-spacing': 'error',
     'func-names': ['error', 'never'],
     'eol-last': 'error',
@@ -47,6 +49,7 @@ module.exports = {
             }
         }
     ],
+    'yoda': ['error', 'always'],
 
     // Indent with 4 spaces
     'indent': ['error', 4],
