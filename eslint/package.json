@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-nk",
+  "version": "0.0.1",
+  "description": "ESLint config ready to be used in nK projects",
+  "author": "nK",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "bugs": {
+    "url": "https://github.com/nk-o/configs/issues"
+  },
+  "homepage": "https://github.com/nk-o/configs/eslint/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nk-o/configs/eslint/"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.19.0"
+  }
+}
