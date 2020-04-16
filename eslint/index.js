@@ -5,9 +5,7 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
-    'airbnb',
-    'prettier',
-    'prettier/react'
+    'airbnb'
   ],
   env: {
     browser: true,
