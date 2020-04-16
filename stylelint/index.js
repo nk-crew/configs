@@ -1,11 +1,25 @@
 module.exports = {
-  ignoreFiles: [ '**/*.js', '**/*.jsx' ],
   extends: [
     'stylelint-config-standard',
     'stylelint-config-recommended-scss',
   ],
   plugins: [
     'stylelint-order',
+  ],
+  ignoreFiles: [
+    '**/*.js',
+    '**/*.jsx',
+    '**/*.min.css',
+    '**/*.build.css',
+    '**/node_modules/**',
+    '**/vendor/**',
+    '**/vendors/**',
+    'build',
+    'coverage',
+    'cypress',
+    'node_modules',
+    'vendor',
+    'vendors',
   ],
   rules: {
     'at-rule-empty-line-before': null,

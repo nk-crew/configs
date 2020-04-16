@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nk",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "ESLint config ready to be used in nK projects",
   "author": "nK",
   "license": "MIT",
@@ -11,10 +11,10 @@
   "bugs": {
     "url": "https://github.com/nk-o/configs/issues"
   },
-  "homepage": "https://github.com/nk-o/configs/eslint/",
+  "homepage": "https://github.com/nk-o/configs/tree/master/eslint",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nk-o/configs/eslint/"
+    "url": "https://github.com/nk-o/configs/tree/master/eslint"
   },
   "main": "index.js",
   "files": [
