@@ -30,7 +30,7 @@ module.exports = {
     'function-url-no-scheme-relative': true,
     'function-url-quotes': 'always',
     'length-zero-no-unit': true,
-    'indentation': 2,
+    'indentation': 4,
     'max-empty-lines': 2,
     'max-line-length': null,
     'media-feature-name-no-vendor-prefix': true,
