@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nk",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "ESLint config ready to be used in nK projects",
   "author": "nK",
   "license": "MIT",
