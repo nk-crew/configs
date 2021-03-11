@@ -41,7 +41,9 @@ module.exports = {
     ],
     'function-url-no-scheme-relative': true,
     'function-url-quotes': 'always',
-    'length-zero-no-unit': true,
+
+    // Sometimes we need to use `0px` units inside CSS variables.
+    'length-zero-no-unit': null,
     'indentation': 4,
     'max-empty-lines': 2,
     'max-line-length': null,
