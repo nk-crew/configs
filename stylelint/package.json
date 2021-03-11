@@ -9,12 +9,12 @@
     "stylelint-config"
   ],
   "bugs": {
-    "url": "https://github.com/nk-crew/configs/issues"
+    "url": "https://github.com/nk-o/configs/issues"
   },
-  "homepage": "https://github.com/nk-crew/configs/tree/master/stylelint",
+  "homepage": "https://github.com/nk-o/configs/tree/master/stylelint",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nk-crew/configs/tree/master/stylelint"
+    "url": "https://github.com/nk-o/configs/tree/master/stylelint"
   },
   "main": "index.js",
   "files": [
