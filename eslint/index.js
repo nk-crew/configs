@@ -5,6 +5,7 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
+    'plugin:prettier/recommended',
     'airbnb'
   ],
   env: {
@@ -32,39 +33,13 @@ module.exports = {
     'vendors',
   ],
   rules: {
-    'array-bracket-spacing': ['error', 'always'],
-    'comma-dangle': ['error', 'always-multiline'],
-    'comma-spacing': 'error',
-    'comma-style': 'error',
-    'computed-property-spacing': ['error', 'always'],
-    'func-call-spacing': 'error',
-    'func-names': ['error', 'never'],
-    'eol-last': 'error',
-    'quotes': [ 'error', 'single', { avoidEscape: true } ],
-    'max-len': 0,
-    'max-classes-per-file': 'off',
-    'no-param-reassign': 'off',
-    'template-curly-spacing': ['error', 'always'],
-    'semi': 'error',
-    'semi-spacing': 'error',
-    'space-before-blocks': ['error', 'always'],
-    'space-before-function-paren': ['error', 'never'],
-    'space-in-parens': ['error', 'always'],
-    'space-infix-ops': ['error', { int32Hint: false }],
-    'space-unary-ops': [
-        'error',
-        {
-            overrides: {
-                '!': true
-            }
-        }
-    ],
-    'yoda': ['error', 'always'],
+    'prettier/prettier': 'error',
 
-    // Indent with 4 spaces
-    'indent': ['error', 4],
-    'react/jsx-indent': ['error', 4],
-    'react/jsx-indent-props': ['error', 4],
+    'func-names': 'off',
+    'max-len': 0,
+    'comma-dangle': ['error', 'always-multiline'],
+    'object-curly-newline': 'off',
+    'operator-linebreak': 'off',
 
     // Rules for https://github.com/benmosher/eslint-plugin-import
     'import/order': ['error', { 'newlines-between': 'always' }],
@@ -76,13 +51,7 @@ module.exports = {
     // React.
     'react/display-name': 'off',
     'react/destructuring-assignment': 'off',
-    'react/jsx-curly-spacing': [
-      'error',
-      {
-        when: 'always',
-        children: true,
-      },
-    ],
+    'react/jsx-curly-spacing': 'off',
     'react/jsx-equals-spacing': 'error',
     'react/jsx-key': 'error',
     'react/jsx-tag-spacing': 'error',
