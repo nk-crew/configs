@@ -29,6 +29,9 @@ module.exports = {
     'block-closing-brace-newline-after': null,
     'block-opening-brace-space-before': null,
 
+    // Disable max line length.
+    'max-line-length': null,
+
     // Sometimes we need to use `0px` units inside CSS variables.
     'length-zero-no-unit': null,
     'no-descending-specificity': null,
