@@ -11,6 +11,8 @@ module.exports = {
   ignoreFiles: [
     '**/*.js',
     '**/*.jsx',
+    '**/*.ts',
+    '**/*.tsx',
     '**/*.min.css',
     '**/*.build.css',
     'build',

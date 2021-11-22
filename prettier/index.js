@@ -1,10 +1,14 @@
 module.exports = {
   bracketSpacing: true,
   jsxBracketSameLine: false,
-  printWidth: 80,
+  printWidth: 100, // default: 80
+  endOfLine: 'lf',
   proseWrap: 'never',
   semi: true,
   singleQuote: true,
+  tabWidth: 2,
+  trailingComma: 'es5',
+  useTabs: false,
   overrides: [
     {
       files: ['**/*.css', '**/*.scss', '**/*.html'],
@@ -13,7 +17,4 @@ module.exports = {
       },
     },
   ],
-  tabWidth: 2,
-  trailingComma: 'es5',
-  useTabs: false,
 };

@@ -40,6 +40,7 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'object-curly-newline': 'off',
     'operator-linebreak': 'off',
+    'implicit-arrow-linebreak': 'off',
 
     // Rules for https://github.com/benmosher/eslint-plugin-import
     'import/order': ['error', { 'newlines-between': 'always' }],
