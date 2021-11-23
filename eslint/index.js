@@ -1,5 +1,14 @@
 module.exports = {
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: "module",
+    ecmaFeatures: {
+      defaultParams: true,
+      spread: true,
+    },
+    requireConfigFile: false,
+  },
   extends: [
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
@@ -13,14 +22,6 @@ module.exports = {
     es6: true,
     node: true,
     jest: true,
-  },
-  parserOptions: {
-    ecmaVersion: 6,
-    sourceType: 'module',
-    ecmaFeatures: {
-      defaultParams: true,
-      spread: true,
-    },
   },
   ignorePatterns: [
     '**/*.min.js',
@@ -37,7 +38,13 @@ module.exports = {
 
     'func-names': 'off',
     'max-len': 0,
-    'comma-dangle': ['error', 'always-multiline'],
+    'comma-dangle': ['error', {
+      arrays: 'always-multiline',
+      objects: 'always-multiline',
+      imports: 'always-multiline',
+      exports: 'always-multiline',
+      functions: 'never',
+    }],
     'object-curly-newline': 'off',
     'operator-linebreak': 'off',
     'implicit-arrow-linebreak': 'off',
