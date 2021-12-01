@@ -38,6 +38,9 @@ module.exports = {
     'length-zero-no-unit': null,
     'no-descending-specificity': null,
 
+    // SASS compiler does not support the modern color functions, so we need to keep legacy.
+    'color-function-notation': 'legacy',
+
     // SCSS.
     'at-rule-no-unknown': null,
     'scss/at-rule-no-unknown': true,
