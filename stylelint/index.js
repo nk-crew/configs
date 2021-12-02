@@ -38,8 +38,16 @@ module.exports = {
     'length-zero-no-unit': null,
     'no-descending-specificity': null,
 
-    // SASS compiler does not support the modern color functions, so we need to keep legacy.
-    'color-function-notation': 'legacy',
+    // Temporary disable color function notations
+    // there is a problem with CSS variables in 'legacy' mode
+    // and there is a problem with SASS compiler in 'modern' mode
+    'color-function-notation': null,
+
+    // By default used 'kebab-case' pattern, but we are using our own advanced pattern.
+    'custom-property-pattern': null,
+
+    // Since we may use large margins styles, it is not a good choice to shorthand it to single `margin`.
+    'declaration-block-no-redundant-longhand-properties': null,
 
     // SCSS.
     'at-rule-no-unknown': null,
