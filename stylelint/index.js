@@ -43,8 +43,9 @@ module.exports = {
     // and there is a problem with SASS compiler in 'modern' mode
     'color-function-notation': null,
 
-    // By default used 'kebab-case' pattern, but we are using our own advanced pattern.
+    // We are using different patterns based on the project, so we don't need predefined patterns here.
     'custom-property-pattern': null,
+    'selector-class-pattern': null,
 
     // Since we may use large margins styles, it is not a good choice to shorthand it to single `margin`.
     'declaration-block-no-redundant-longhand-properties': null,
