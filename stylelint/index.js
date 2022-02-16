@@ -50,8 +50,11 @@ module.exports = {
     // Since we may use large margins styles, it is not a good choice to shorthand it to single `margin`.
     'declaration-block-no-redundant-longhand-properties': null,
 
-    // SCSS.
+    // Recommended rules for stylelint-scss
     'at-rule-no-unknown': null,
     'scss/at-rule-no-unknown': true,
+    // these rules may not be used once fix added in https://github.com/stylelint-scss/stylelint-scss/pull/591
+    'function-no-unknown': null,
+    'scss/function-no-unknown': true,
   },
 }
