@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nk",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "ESLint config ready to be used in nK projects",
   "author": "nK",
   "license": "MIT",
@@ -20,14 +20,14 @@
   "files": [
     "index.js"
   ],
-  "dependencies": {
-    "@babel/eslint-parser": "^7.16.3",
-    "eslint": "8.3.0",
-    "eslint-config-airbnb": "^19.0.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-jsx-a11y": "6.5.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "7.27.1"
+  "peerDependencies": {
+    "@babel/eslint-parser": "7.x",
+    "eslint": "8.x",
+    "eslint-config-airbnb": "19.x",
+    "eslint-config-prettier": "8.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-prettier": "4.x",
+    "eslint-plugin-react": "7.x"
   }
 }
