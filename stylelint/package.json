@@ -20,12 +20,12 @@
   "files": [
     "index.js"
   ],
-  "dependencies": {
-    "stylelint": "^14.1.0",
-    "stylelint-config-recess-order": "^3.0.0",
-    "stylelint-config-recommended-scss": "^5.0.2",
-    "stylelint-config-standard": "^24.0.0",
-    "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.0.0"
+  "peerDependencies": {
+    "stylelint": "14.x",
+    "stylelint-config-recess-order": "3.x",
+    "stylelint-config-recommended-scss": "5.x",
+    "stylelint-config-standard": "25.x",
+    "stylelint-order": "5.x",
+    "stylelint-scss": "4.x"
   }
 }
