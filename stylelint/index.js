@@ -55,6 +55,5 @@ module.exports = {
     'scss/at-rule-no-unknown': true,
     // these rules may not be used once fix added in https://github.com/stylelint-scss/stylelint-scss/pull/591
     'function-no-unknown': null,
-    'scss/function-no-unknown': true,
   },
 }
