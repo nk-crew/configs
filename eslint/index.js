@@ -14,8 +14,8 @@ module.exports = {
     'plugin:jsx-a11y/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
+    'airbnb',
     'plugin:prettier/recommended',
-    'airbnb'
   ],
   env: {
     browser: true,
@@ -36,6 +36,7 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
 
+    'yoda': ['error', 'always'],
     'func-names': 'off',
     'max-len': 0,
     'comma-dangle': ['error', {
@@ -48,6 +49,8 @@ module.exports = {
     'object-curly-newline': 'off',
     'operator-linebreak': 'off',
     'implicit-arrow-linebreak': 'off',
+    'no-param-reassign': 'off',
+    'no-return-assign': 'off',
 
     // Rules for https://github.com/benmosher/eslint-plugin-import
     'import/order': ['error', { 'newlines-between': 'always' }],
