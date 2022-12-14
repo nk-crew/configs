@@ -36,7 +36,7 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
 
-    'yoda': ['error', 'always'],
+    'yoda': ['error', 'never'],
     'func-names': 'off',
     'max-len': 0,
     'comma-dangle': ['error', {
