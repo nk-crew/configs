@@ -1,7 +1,7 @@
 {
   "name": "browserslist-config-nk",
-  "version": "1.0.0",
-  "description": "Browsers List config ready to be used in nK projects",
+  "version": "1.1.0",
+  "description": "Browserslist config ready for use in modern projects",
   "author": "nK",
   "license": "MIT",
   "keywords": [
