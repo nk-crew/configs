@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-nk",
   "version": "1.1.0",
-  "description": "ESLint config ready to be used in nK projects",
+  "description": "nK ESLint shared configuration.",
   "author": "nK",
   "license": "MIT",
   "keywords": [
