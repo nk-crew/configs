@@ -23,8 +23,8 @@
   "peerDependencies": {
     "stylelint": "14.x",
     "stylelint-config-recess-order": "3.x",
-    "stylelint-config-recommended-scss": "5.x",
-    "stylelint-config-standard": "25.x",
+    "stylelint-config-recommended-scss": "8.x",
+    "stylelint-config-standard": "29.x",
     "stylelint-order": "5.x",
     "stylelint-scss": "4.x"
   }
