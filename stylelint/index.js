@@ -31,6 +31,9 @@ module.exports = {
     'block-closing-brace-newline-after': null,
     'block-opening-brace-space-before': null,
 
+    // Disable until fixed https://github.com/stylelint-scss/stylelint-config-recommended-scss/issues/163 .
+    'import-notation': null,
+
     // Disable max line length.
     'max-line-length': null,
 
